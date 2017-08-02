@@ -49,16 +49,19 @@ body{
     border-right: 0;
 }
 #page-footer .frame { display:table-cell;}
-/* FOR IE6/7 */
-/*
-#page-body {min-height:100%;}
-* html #page-body { height:100%;}
-#page-body .holder {padding-bottom:expression(document.getElementById("footer").offsetHeight + "px");}
-#page-footer {
-    position:relative;
-    margin-top:expression(- this.offsetHeight + "px");
+#map {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
 }
-*/
+#map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
 
 @media(max-width:767px) {
   .table-mobile thead { display: none }
