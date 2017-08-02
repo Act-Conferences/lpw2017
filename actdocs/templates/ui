@@ -5,17 +5,9 @@
     <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'bootstrap.min.css') %]" />
     <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'font-awesome.min.css') %]" />
     <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'style.css') %]" />
-    <!--
-    <link rel="stylesheet" type="text/css" href="http://bootswatch.com/simplex/bootstrap.min.css" />
-    -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="[% make_uri_info('js', 'jquery-3.2.1.slim.min.js') %]"></script>
     <title>[% global.conference.name %][% IF title %] | [% title  %][% END %]</title>
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
     <div id="page">
