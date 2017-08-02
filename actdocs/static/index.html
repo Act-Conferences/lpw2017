@@ -1,41 +1,4 @@
-[% WRAPPER ui title = global.conference.name %]
-
-<span style="float: right; display: block; margin: 35px 5px 15px 30px;">
-<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'search',
-  search: '#lpw2017',
-  interval: 30000,
-  title: '(Tag: #LPW2017)',
-  subject: 'Latest Tweets',
-  width: 230,
-  height: 300,
-  theme: {
-    shell: {
-      background: '#d96f2d',
-      color: '#ffffff'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#444444',
-      links: '#1985b5'
-    }
-  },
-  features: {
-    scrollbar: true,
-    loop: false,
-    live: true,
-    behavior: 'all'
-  }
-}).render().start();
-</script>
-</span>
-
-<!-- <p>
-<a href="http://book.roomofthings.com/buy/"><img class="topcontentbanner" src="[% make_uri_info('images/design/internet-things.jpg') %]"/></a>
-</p> -->
+[% WRAPPER ui banner = 1%]
 
 <h2>What is it?</h2>
 
@@ -124,5 +87,3 @@ Watch this space for updates, or check the <a href="[% global.request.base_url %
 </div>
 
 [% END %]
-
-
