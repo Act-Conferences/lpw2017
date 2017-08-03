@@ -12,6 +12,7 @@
 
   <div class="collapse navbar-collapse" id="nav-menu-options">
     <ul class="nav navbar-nav">
+      [% PROCESS menus/slideshows %]
       [% PROCESS menus/news %]
       [% PROCESS menus/talks %]
       [% PROCESS menus/users %]
