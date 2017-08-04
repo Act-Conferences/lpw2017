@@ -11,12 +11,10 @@
   </div>
 
   <div class="collapse navbar-collapse" id="nav-menu-options">
-    <ul class="nav navbar-nav">
+    <ul class="nav navbar-nav navbar-right">
       [% PROCESS menus/conference %]
       [% PROCESS menus/news %]
       [% PROCESS menus/talks %]
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
       [% PROCESS menus/language %]
       [% PROCESS menus/user %]
     </ul>
