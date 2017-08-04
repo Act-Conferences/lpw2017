@@ -12,8 +12,8 @@
 
   <div class="collapse navbar-collapse" id="nav-menu-options">
     <ul class="nav navbar-nav navbar-right">
-      [% PROCESS menus/conference %]
       [% PROCESS menus/news %]
+      [% PROCESS menus/conference %]
       [% PROCESS menus/talks %]
       [% PROCESS menus/language %]
       [% PROCESS menus/user %]
