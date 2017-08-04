@@ -14,7 +14,7 @@
       <li class="divider"></li>
       <li><a href="[% make_uri('schedule') %]">{{Schedule}}</a></li>
       [% IF global.request.user.has_registered %]
-        <li><a href="[% make_uri('myschedule') %]">{{Personal Schedule}}</a>
+        <li><a href="[% make_uri('myschedule') %]">My schedule</a>
       [% END %]
 
       <li><a href="[% make_uri('timetable.ics') %]">{{iCal export}}</a></li>
