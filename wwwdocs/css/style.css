@@ -1,8 +1,21 @@
 html,body {
     height:100%;
 }
+.navbar-header .navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-header {
+    color: #fff;
+}
 body{
     margin:0;
+}
+#main-menu {
+  background: #FFF url('images/design/london-skyline.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
 }
 .input-link {
   border: 0;
