@@ -21,7 +21,7 @@
                 [% PROCESS banner %]
               [% END %]
               [% IF title %]
-                <h1>[% title %]</h1>
+			  <br><br><h1>[% title %]</h1><br><br>
               [% END %]
             </div>
           </div>
