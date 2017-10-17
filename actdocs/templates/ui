@@ -28,9 +28,18 @@
         </div>
 
         <div class="container" id="page-content">
-          <div class="col-xs-12">
-            [% content %]
-          </div>
+            [% IF no_sponsors %]
+            <div class="col-xs-12">
+              [% content %]
+            </div>
+            [% ELSE %]
+            <div class="col-md-8">
+              [% content %]
+            </div>
+            <div class="col-md-4" style="border-left: 1px solid #ccc;">
+              [% INCLUDE sponsor_list %]
+            </div>
+            [% END %]
         </div>
       </div>
 
