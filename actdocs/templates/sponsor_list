@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Sponsors</h3>
+        <p><small><a href="[% make_uri_info('sponsors.html') %]">Read more about our sponsors</a></small></p>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-xs-8 col-xs-offset-2 text-center">
+        <a href="http://eligo.co.uk/">
+            <img src="[% make_uri_info('images','logos') %]/eligo.jpg" border="0" alt="Eligo" class="img-responsive" style="margin-top: 2em;">
+        </a>
+    </div>
+
+    <div class="col-xs-12 text-center;">
+        <a href="https://perl.careers/">
+            <img src="[% make_uri_info('images','logos') %]/perl-careers.png" border="0" alt="Perl Jobs by Perl Careers" class="img-responsive" style="margin-top: 2em;">
+        </a>
+    </div>
+
+    <div class="col-xs-8 col-xs-offset-2 text-center;">
+        <a href="https://www.bytemark.co.uk">
+            <img src="[% make_uri_info('images','logos') %]/bytemark.png" border="0" alt="Bytemark Hosting" class="img-responsive" style="margin-top: 2em;">
+        </a>
+    </div>
+
+    <div class="col-xs-6 col-xs-offset-3 text-center;">
+        <a href="http://opusvl.com/">
+            <img src="[% make_uri_info('images','logos') %]/opusvl.jpg" border="0" alt="OpusVL" class="img-responsive" style="margin-top: 2em;">
+        </a>
+    </div>
+
+</div>
+
+
+
