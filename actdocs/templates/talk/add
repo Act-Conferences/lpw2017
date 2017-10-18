@@ -1,4 +1,4 @@
-[% WRAPPER ui title = loc("Submit/Edit a talk") %]
+[% WRAPPER ui title = loc("Submit/Edit a talk") no_sponsors = 1 %]
 
   [% PROCESS error
      msgs = {
