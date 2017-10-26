@@ -75,6 +75,19 @@
 					<key>promptMessage</key>
 					<string>Choose input images</string>
 				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>defaultLocation</key>
+					<string>/Volumes/Development FS/lpw2017/wwwdocs/images/logos</string>
+					<key>granularity</key>
+					<integer>0</integer>
+					<key>multipleSelection</key>
+					<true/>
+					<key>promptMessage</key>
+					<string>Choose input images</string>
+					<key>temporary items path</key>
+					<string>/var/folders/km/6t7zz7t57gjdbwrvy11hh16m0000gn/T/17872843-E383-47FF-BBDE-036B84E90FBC/1/com.apple.Automator.AskForFinderItems</string>
+				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AskForFinderItems</string>
 				<key>CFBundleVersion</key>
@@ -164,8 +177,6 @@
 						<string>3</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -286,12 +297,10 @@
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:313.000000</string>
+				<string>309.000000:261.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Copy Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -346,7 +355,7 @@
 				<key>CFBundleVersion</key>
 				<string>1.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
+				<false/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -389,8 +398,6 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -412,22 +419,26 @@
 					<true/>
 					<key>Types</key>
 					<array>
-						<string>public.image</string>
+						<string>com.apple.cocoa.string</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>3.3.1</string>
+				<string>2.0.3</string>
 				<key>AMApplication</key>
 				<array>
-					<string>Pixelmator</string>
+					<string>Automator</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
-					<key>height</key>
+					<key>COMMAND_STRING</key>
 					<dict/>
-					<key>preserveConstrains</key>
+					<key>CheckedForUserDefaultShell</key>
 					<dict/>
-					<key>width</key>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
 					<dict/>
 				</dict>
 				<key>AMProvides</key>
@@ -436,58 +447,66 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>public.image</string>
+						<string>com.apple.cocoa.string</string>
 					</array>
 				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
 				<key>ActionBundlePath</key>
-				<string>/Applications/Pixelmator.app/Contents/Library/Automator/Fit Images.action</string>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
 				<key>ActionName</key>
-				<string>Fit Images</string>
+				<string>Run Shell Script</string>
 				<key>ActionParameters</key>
 				<dict>
-					<key>height</key>
-					<integer>360</integer>
-					<key>preserveConstrains</key>
-					<string>1</string>
-					<key>width</key>
-					<integer>720</integer>
+					<key>COMMAND_STRING</key>
+					<string>sips --resampleHeightWidthMax 360 720 "$@"</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>1</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.pixelmator.automator.fit</string>
+				<string>com.apple.RunShellScript</string>
 				<key>CFBundleVersion</key>
-				<string>3.3.1</string>
+				<string>2.0.3</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
+				<false/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
 				<array>
-					<string>AMCategoryPhotos</string>
+					<string>AMCategoryUtilities</string>
 				</array>
 				<key>Class Name</key>
-				<string>PXAMFitImages</string>
+				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>E65A3131-2AE6-4D3A-AE9E-0ED2531B0AB1</string>
+				<string>F5C73871-4FBF-4E90-BD2D-81C166F3C659</string>
 				<key>Keywords</key>
-				<array/>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
 				<key>OutputUUID</key>
-				<string>593199E0-321F-4A25-AE07-2D31050F3303</string>
+				<string>6FAAE911-D756-42D8-A528-28B7813B26A6</string>
 				<key>UUID</key>
-				<string>963F633B-2C2F-4BAD-81B4-ED02604D89AC</string>
+				<string>AF5927FD-CEA2-417A-BA09-B7317A8ECAD6</string>
 				<key>UnlocalizedApplications</key>
 				<array>
-					<string>Pixelmator</string>
+					<string>Automator</string>
 				</array>
 				<key>arguments</key>
 				<dict>
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<string>640</string>
+						<integer>0</integer>
 						<key>name</key>
-						<string>width</string>
+						<string>inputMethod</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -498,9 +517,9 @@
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<string>1</string>
+						<string></string>
 						<key>name</key>
-						<string>preserveConstrains</string>
+						<string>source</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -511,9 +530,9 @@
 					<key>2</key>
 					<dict>
 						<key>default value</key>
-						<string>480</string>
+						<false/>
 						<key>name</key>
-						<string>height</string>
+						<string>CheckedForUserDefaultShell</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -521,15 +540,41 @@
 						<key>uuid</key>
 						<string>2</string>
 					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
 				</dict>
 				<key>conversionLabel</key>
 				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:573.000000</string>
+				<string>309.000000:600.000000</string>
 				<key>nibPath</key>
-				<string>/Applications/Pixelmator.app/Contents/Library/Automator/Fit Images.action/Contents/Resources/English.lproj/Fit Images.nib</string>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -537,21 +582,21 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0F7CC895-F46D-4238-B7F3-FC46A9363364</key>
-		<dict>
-			<key>from</key>
-			<string>0BEE97A2-6DA2-4CE8-8624-6354FF96DBB0 - 0BEE97A2-6DA2-4CE8-8624-6354FF96DBB0</string>
-			<key>to</key>
-			<string>963F633B-2C2F-4BAD-81B4-ED02604D89AC - 963F633B-2C2F-4BAD-81B4-ED02604D89AC</string>
-		</dict>
-		<key>B61283FF-CF13-4129-9FF4-5480E2F32C32</key>
+		<key>0E994F25-8D50-4389-B8BC-79BDF9A60F94</key>
 		<dict>
 			<key>from</key>
 			<string>9588C6A3-E42E-4DE2-8CF8-8959A93DDD49 - 9588C6A3-E42E-4DE2-8CF8-8959A93DDD49</string>
 			<key>to</key>
 			<string>0BEE97A2-6DA2-4CE8-8624-6354FF96DBB0 - 0BEE97A2-6DA2-4CE8-8624-6354FF96DBB0</string>
 		</dict>
-		<key>EC3100F1-67DD-437C-B6A0-AA0476CB25CA</key>
+		<key>4DDEF66E-A3F1-40D6-A225-2EF6BBD8B3D6</key>
+		<dict>
+			<key>from</key>
+			<string>0BEE97A2-6DA2-4CE8-8624-6354FF96DBB0 - 0BEE97A2-6DA2-4CE8-8624-6354FF96DBB0</string>
+			<key>to</key>
+			<string>AF5927FD-CEA2-417A-BA09-B7317A8ECAD6 - AF5927FD-CEA2-417A-BA09-B7317A8ECAD6</string>
+		</dict>
+		<key>D6A67997-FE09-43EB-A785-C5F0BC527A64</key>
 		<dict>
 			<key>from</key>
 			<string>4D22690E-6125-4F00-83BC-03D7C2B864D1 - 4D22690E-6125-4F00-83BC-03D7C2B864D1</string>
