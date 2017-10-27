@@ -444,11 +444,11 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>sips --resampleHeightWidthMax 720 360 "$@"</string>
+					<string>/usr/local/bin/gxargs -d '\n' -n1 /usr/local/bin/mogrify -resize "720x360&gt;"</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
-					<integer>1</integer>
+					<integer>0</integer>
 					<key>shell</key>
 					<string>/bin/bash</string>
 					<key>source</key>
