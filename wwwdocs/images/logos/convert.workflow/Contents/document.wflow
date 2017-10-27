@@ -75,19 +75,6 @@
 					<key>promptMessage</key>
 					<string>Choose input images</string>
 				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>defaultLocation</key>
-					<string>/Volumes/Development FS/lpw2017/wwwdocs/images/logos</string>
-					<key>granularity</key>
-					<integer>0</integer>
-					<key>multipleSelection</key>
-					<true/>
-					<key>promptMessage</key>
-					<string>Choose input images</string>
-					<key>temporary items path</key>
-					<string>/var/folders/km/6t7zz7t57gjdbwrvy11hh16m0000gn/T/17872843-E383-47FF-BBDE-036B84E90FBC/1/com.apple.Automator.AskForFinderItems</string>
-				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AskForFinderItems</string>
 				<key>CFBundleVersion</key>
@@ -235,7 +222,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>replaceExisting</key>
-					<false/>
+					<true/>
 					<key>toDirectory</key>
 					<string>/Volumes/Development FS/lpw2017/wwwdocs/images/logos/scaled</string>
 				</dict>
@@ -355,7 +342,7 @@
 				<key>CFBundleVersion</key>
 				<string>1.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
+				<true/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -401,7 +388,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:417.000000</string>
+				<string>309.000000:365.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Change Type of Images.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -457,7 +444,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>sips --resampleHeightWidthMax 360 720 "$@"</string>
+					<string>sips --resampleHeightWidthMax 720 360 "$@"</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -567,12 +554,10 @@
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:600.000000</string>
+				<string>309.000000:548.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -582,26 +567,26 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0E994F25-8D50-4389-B8BC-79BDF9A60F94</key>
+		<key>38CD5714-4138-4F82-8A2A-7EFCB98F8694</key>
 		<dict>
 			<key>from</key>
-			<string>9588C6A3-E42E-4DE2-8CF8-8959A93DDD49 - 9588C6A3-E42E-4DE2-8CF8-8959A93DDD49</string>
+			<string>4D22690E-6125-4F00-83BC-03D7C2B864D1 - 4D22690E-6125-4F00-83BC-03D7C2B864D1</string>
 			<key>to</key>
-			<string>0BEE97A2-6DA2-4CE8-8624-6354FF96DBB0 - 0BEE97A2-6DA2-4CE8-8624-6354FF96DBB0</string>
+			<string>9588C6A3-E42E-4DE2-8CF8-8959A93DDD49 - 9588C6A3-E42E-4DE2-8CF8-8959A93DDD49</string>
 		</dict>
-		<key>4DDEF66E-A3F1-40D6-A225-2EF6BBD8B3D6</key>
+		<key>B7F72663-5DD1-49D6-B180-37E07944B3B7</key>
 		<dict>
 			<key>from</key>
 			<string>0BEE97A2-6DA2-4CE8-8624-6354FF96DBB0 - 0BEE97A2-6DA2-4CE8-8624-6354FF96DBB0</string>
 			<key>to</key>
 			<string>AF5927FD-CEA2-417A-BA09-B7317A8ECAD6 - AF5927FD-CEA2-417A-BA09-B7317A8ECAD6</string>
 		</dict>
-		<key>D6A67997-FE09-43EB-A785-C5F0BC527A64</key>
+		<key>BBC4DF6B-31DA-4A28-A14D-28E8F1D281DE</key>
 		<dict>
 			<key>from</key>
-			<string>4D22690E-6125-4F00-83BC-03D7C2B864D1 - 4D22690E-6125-4F00-83BC-03D7C2B864D1</string>
-			<key>to</key>
 			<string>9588C6A3-E42E-4DE2-8CF8-8959A93DDD49 - 9588C6A3-E42E-4DE2-8CF8-8959A93DDD49</string>
+			<key>to</key>
+			<string>0BEE97A2-6DA2-4CE8-8624-6354FF96DBB0 - 0BEE97A2-6DA2-4CE8-8624-6354FF96DBB0</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
