@@ -19,7 +19,7 @@
 <div class="col-xs-12" style="margin-bottom: 1em;"><strong>Gold:</strong></div>
 
     <div class="col-xs-10 col-xs-offset-1 text-center;">
-        <a href="https://perl.careers/">
+        <a href="https://perl.careers/jobs/">
             <img src="[% make_uri_info('images/logos/scaled/perlcareers.png') %]" border="0" alt="Perl Jobs by Perl Careers" class="img-responsive" style="margin-bottom: 2em;">
         </a>
     </div>
@@ -60,17 +60,56 @@
 <!-- Others -->
 <div class="col-xs-12" style="margin-bottom: 1em;"><strong>Bronze and Community:</strong></div>
 
+<!-- SureVoIP -->
+    <div class="col-xs-5 text-center;">
+        <a href="https://www.surevoip.co.uk/">
+            <img src="[% make_uri_info('images/logos/scaled/surevoip.png') %]" border="0" alt="SureVoIP" class="img-responsive" style="margin-bottom: 0.5em;">
+        </a>
+    </div>
+
 <!-- SPL -->
-    <div class="col-xs-6 text-center;">
+    <div class="col-xs-7 text-center;">
         <a href="http://www.sciencephoto.com/">
             <img src="[% make_uri_info('images/logos/scaled/sciencephotolibrary.png') %]" border="0" alt="Science Photo Library" class="img-responsive" style="margin-bottom: 0.5em;">
         </a>
     </div>
 
-<!-- SureVoIP -->
+<div style="clear:both"><!-- --></div>
+
+<!-- MagSol -->
+    <div class="col-xs-5 text-center;">
+        <a href="https://mag-sol.com/">
+            <img src="[% make_uri_info('images/logos/scaled/magnum.png') %]" border="0" alt="Magnum Solutions Ltd" class="img-responsive" style="margin-bottom: 0.5em;">
+        </a>
+    </div>
+
+<!-- Perl 6 / Wendy/Liz ...? -->
+    <div class="col-xs-3 text-center;">
+        <a href="https://perl6.org/">
+            <img src="[% make_uri_info('images/logos/scaled/perl6.png') %]" border="0" alt="The Perl 6 community" class="img-responsive" style="margin-bottom: 0.5em;">
+        </a>
+    </div>
+
+<!-- Dep CompSci Westminster -->
     <div class="col-xs-4 text-center;">
-        <a href="https://www.surevoip.co.uk/">
-            <img src="[% make_uri_info('images/logos/scaled/surevoip.png') %]" border="0" alt="SureVoIP" class="img-responsive" style="margin-bottom: 0.5em;">
+        <a href="https://www.westminster.ac.uk/about-us/faculties/science-and-technology/departments/computer-science">
+            <img src="[% make_uri_info('images/logos/scaled/westminster.png') %]" border="0" alt="University of Westminster" class="img-responsive" style="margin-bottom: 0.5em;">
+        </a>
+    </div>
+
+<div style="clear:both"><!-- --></div>
+
+<!-- GeekUni -->
+    <div class="col-xs-5 text-center;">
+        <a href="https://geekuni.com/">
+            <img src="[% make_uri_info('images/logos/scaled/geekuni.png') %]" border="0" alt="Geekuni" class="img-responsive" style="margin-bottom: 0.5em;">
+        </a>
+    </div>
+
+<!-- EPO -->
+    <div class="col-xs-3 text-center;">
+        <a href="https://ww2.enlightenedperl.org/">
+            <img src="[% make_uri_info('images/logos/scaled/epo.png') %]" border="0" alt="Enlightened Perl Organisation" class="img-responsive" style="margin-bottom: 0.5em;">
         </a>
     </div>
 
@@ -80,6 +119,9 @@
             <img src="[% make_uri_info('images/logos/scaled/ora.png') %]" border="0" alt="O'Reilly Media" class="img-responsive" style="margin-bottom: 0.5em;">
         </a>
     </div>
+
+
+
 
 </div>
 
