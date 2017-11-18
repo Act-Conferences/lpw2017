@@ -3,7 +3,7 @@
   <head>
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:image" content="http://act.yapc.eu/lpw2017/images/design/london-skyline.jpg"/>
-    <meta property="og:title" content="[% IF title; title; ELSE global.conference.name; END %]" />
+    <meta property="og:title" content="[% IF title; title; ELSE; global.conference.name; END %]" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://act.yapc.eu/lpw2017/" />
     <meta property="og:description" content="The London Perl Workshop" />
