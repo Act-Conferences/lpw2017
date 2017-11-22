@@ -120,25 +120,25 @@ p.message {
 .table-schedule td {
   border: 0 !important;
 }
-.venue .alert {
+.venue {
   background-color: #FFCC00;
 }
-.out .alert {
+.out {
   background-color: #EEEEEE;
 }
-.r1 .alert {
+.r1 {
   background-color: #FFD3D3;
 }
-.r2 .alert {
+.r2 {
   background-color: #D3FFD3;
 }
-.r3 .alert {
+.r3 {
   background-color: #D3D3FF;
 }
-.r4 .alert {
+.r4 {
   background-color: #FFFFD3;
 }
-.r5 .alert {
+.r5 {
   background-color: #D3FFFF;
 }
 .mtbutton {
