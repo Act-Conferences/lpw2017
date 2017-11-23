@@ -120,26 +120,26 @@ p.message {
 .table-schedule td {
   border: 0 !important;
 }
-.venue .alert {
-  background-color: #FFCC00;
+.venue {
+  background: #FFCC00;
 }
-.out .alert {
-  background-color: #EEEEEE;
+.out {
+  background: #EEEEEE;
 }
-.r1 .alert {
-  background-color: #FFD3D3;
+.r1 {
+  background: #FFD3D3;
 }
-.r2 .alert {
-  background-color: #D3FFD3;
+.r2 {
+  background: #D3FFD3;
 }
-.r3 .alert {
-  background-color: #D3D3FF;
+.r3 {
+  background: #D3D3FF;
 }
-.r4 .alert {
-  background-color: #FFFFD3;
+.r4 {
+  background: #FFFFD3;
 }
-.r5 .alert {
-  background-color: #D3FFFF;
+.r5 {
+  background: #D3FFFF;
 }
 .mtbutton {
   cursor:pointer;
