@@ -54,6 +54,9 @@
     </div>
   [% END %]
 
+  <div class="alert alert-danger">
+    <p>Download a PDF of the schedule <a href="https://github.com/neilb/lpw2017/raw/master/lpw-2017-talks.pdf">here</a>.
+  </div>
 
   [% IF table.keys.size %]
     <div class="panel panel-default">
